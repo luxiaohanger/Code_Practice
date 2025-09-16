@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 23)
 
 add_executable(Code_Practice main.cpp)
 add_subdirectory(Others)
+add_subdirectory(LeetCode)
