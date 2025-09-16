@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "LeetCode",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-LeetCode-Debug-19959c33d7c580033c8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "LeetCode",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "LeetCode/src",
+					"jsonFile" : "directory-LeetCode.src-Debug-15af68875cf0b9393c14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "LeetCode/src",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"build" : "Others",
+					"jsonFile" : "directory-Others-Debug-33f6570b5691a9052401.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Others"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3
+					],
+					"name" : "Code_Practice",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "LeetCode",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Code_Practice::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Code_Practice-Debug-354c305e7e2ab8798bc7.json",
+					"name" : "Code_Practice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "LeetCode::@5ff464a4e4d786b6980f",
+					"jsonFile" : "target-LeetCode-Debug-6e600ab0294bef87774f.json",
+					"name" : "LeetCode",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "backspaceCompare::@42f7cd42f1a06eba0c56",
+					"jsonFile" : "target-backspaceCompare-Debug-ffaf215f8c061c7ddc3d.json",
+					"name" : "backspaceCompare",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "delete::@42f7cd42f1a06eba0c56",
+					"jsonFile" : "target-delete-Debug-691d71b47b359ba68b35.json",
+					"name" : "delete",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generateMatrix::@42f7cd42f1a06eba0c56",
+					"jsonFile" : "target-generateMatrix-Debug-577bff1c32f358ade141.json",
+					"name" : "generateMatrix",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "inorderTraversal::@42f7cd42f1a06eba0c56",
+					"jsonFile" : "target-inorderTraversal-Debug-f575ee80977410c7b8ec.json",
+					"name" : "inorderTraversal",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "isPerfectSquare::@42f7cd42f1a06eba0c56",
+					"jsonFile" : "target-isPerfectSquare-Debug-e3fbcda90e1cd2487c6d.json",
+					"name" : "isPerfectSquare",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "minSubArrayLen::@42f7cd42f1a06eba0c56",
+					"jsonFile" : "target-minSubArrayLen-Debug-1223f25f7b1b2da90c75.json",
+					"name" : "minSubArrayLen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "moveZeroes::@42f7cd42f1a06eba0c56",
+					"jsonFile" : "target-moveZeroes-Debug-3e4b45ae12dc637e5e78.json",
+					"name" : "moveZeroes",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "removeElement::@42f7cd42f1a06eba0c56",
+					"jsonFile" : "target-removeElement-Debug-93ee6586475b8f6ccd35.json",
+					"name" : "removeElement",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "searchRange::@42f7cd42f1a06eba0c56",
+					"jsonFile" : "target-searchRange-Debug-0553a51d8e41b187189f.json",
+					"name" : "searchRange",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sortedSquares::@42f7cd42f1a06eba0c56",
+					"jsonFile" : "target-sortedSquares-Debug-4aa67ae4c9734318a095.json",
+					"name" : "sortedSquares",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sqrt::@42f7cd42f1a06eba0c56",
+					"jsonFile" : "target-sqrt-Debug-e0250ba649dbe5f3f68c.json",
+					"name" : "sqrt",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Code_Practice/cmake-build-debug",
+		"source" : "D:/Code_Practice"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
