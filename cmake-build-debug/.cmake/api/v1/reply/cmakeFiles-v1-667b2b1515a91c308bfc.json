@@ -151,12 +151,6 @@
 			"path" : "D:/Program Files/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
-			"path" : "LeetCode/CMakeLists.txt"
-		},
-		{
-			"path" : "LeetCode/src/CMakeLists.txt"
-		},
-		{
 			"path" : "Others/CMakeLists.txt"
 		}
 	],
