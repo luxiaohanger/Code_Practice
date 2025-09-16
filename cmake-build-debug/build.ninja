@@ -101,6 +101,39 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # D:/Code_Practice/CMakeLists.txt
 # =============================================================================
 
+# =============================================================================
+# Object build statements for EXECUTABLE target buy
+
+
+#############################################
+# Order-only phony target for buy
+
+build cmake_object_order_depends_target_buy: phony || .
+
+build Others/CMakeFiles/buy.dir/buyLand.cpp.obj: CXX_COMPILER__buy_unscanned_Debug D$:/Code_Practice/Others/buyLand.cpp || cmake_object_order_depends_target_buy
+  DEP_FILE = Others\CMakeFiles\buy.dir\buyLand.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = Others\CMakeFiles\buy.dir
+  OBJECT_FILE_DIR = Others\CMakeFiles\buy.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target buy
+
+
+#############################################
+# Link the executable Others\buy.exe
+
+build Others/buy.exe: CXX_EXECUTABLE_LINKER__buy_Debug Others/CMakeFiles/buy.dir/buyLand.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Others\CMakeFiles\buy.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Others\buy.exe
+  TARGET_IMPLIB = Others\libbuy.dll.a
+  TARGET_PDB = buy.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -589,6 +622,10 @@ build backspaceCompare: phony LeetCode/src/backspaceCompare.exe
 
 build backspaceCompare.exe: phony LeetCode/src/backspaceCompare.exe
 
+build buy: phony Others/buy.exe
+
+build buy.exe: phony Others/buy.exe
+
 build delete: phony LeetCode/src/delete.exe
 
 build delete.exe: phony LeetCode/src/delete.exe
@@ -658,7 +695,7 @@ build LeetCode/src/all: phony LeetCode/src/delete.exe LeetCode/src/inorderTraver
 #############################################
 # Folder: D:/Code_Practice/cmake-build-debug/Others
 
-build Others/all: phony
+build Others/all: phony Others/buy.exe
 
 # =============================================================================
 # Built-in targets

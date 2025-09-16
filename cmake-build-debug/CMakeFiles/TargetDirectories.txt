@@ -1,6 +1,7 @@
 D:/Code_Practice/cmake-build-debug/CMakeFiles/Code_Practice.dir
 D:/Code_Practice/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Code_Practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Code_Practice/cmake-build-debug/Others/CMakeFiles/buy.dir
 D:/Code_Practice/cmake-build-debug/Others/CMakeFiles/edit_cache.dir
 D:/Code_Practice/cmake-build-debug/Others/CMakeFiles/rebuild_cache.dir
 D:/Code_Practice/cmake-build-debug/LeetCode/CMakeFiles/LeetCode.dir
