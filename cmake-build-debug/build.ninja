@@ -134,6 +134,39 @@ build Others/buy.exe: CXX_EXECUTABLE_LINKER__buy_Debug Others/CMakeFiles/buy.dir
   TARGET_IMPLIB = Others\libbuy.dll.a
   TARGET_PDB = buy.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lanqiao_game
+
+
+#############################################
+# Order-only phony target for lanqiao_game
+
+build cmake_object_order_depends_target_lanqiao_game: phony || .
+
+build Others/CMakeFiles/lanqiao_game.dir/lanqiao_game.cpp.obj: CXX_COMPILER__lanqiao_game_unscanned_Debug D$:/Code_Practice/Others/lanqiao_game.cpp || cmake_object_order_depends_target_lanqiao_game
+  DEP_FILE = Others\CMakeFiles\lanqiao_game.dir\lanqiao_game.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = Others\CMakeFiles\lanqiao_game.dir
+  OBJECT_FILE_DIR = Others\CMakeFiles\lanqiao_game.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lanqiao_game
+
+
+#############################################
+# Link the executable Others\lanqiao_game.exe
+
+build Others/lanqiao_game.exe: CXX_EXECUTABLE_LINKER__lanqiao_game_Debug Others/CMakeFiles/lanqiao_game.dir/lanqiao_game.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Others\CMakeFiles\lanqiao_game.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Others\lanqiao_game.exe
+  TARGET_IMPLIB = Others\liblanqiao_game.dll.a
+  TARGET_PDB = lanqiao_game.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -586,6 +619,270 @@ build LeetCode/src/generateMatrix.exe: CXX_EXECUTABLE_LINKER__generateMatrix_Deb
   TARGET_IMPLIB = LeetCode\src\libgenerateMatrix.dll.a
   TARGET_PDB = generateMatrix.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target reverseList
+
+
+#############################################
+# Order-only phony target for reverseList
+
+build cmake_object_order_depends_target_reverseList: phony || .
+
+build LeetCode/src/CMakeFiles/reverseList.dir/206_reverseList.cpp.obj: CXX_COMPILER__reverseList_unscanned_Debug D$:/Code_Practice/LeetCode/src/206_reverseList.cpp || cmake_object_order_depends_target_reverseList
+  DEP_FILE = LeetCode\src\CMakeFiles\reverseList.dir\206_reverseList.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = LeetCode\src\CMakeFiles\reverseList.dir
+  OBJECT_FILE_DIR = LeetCode\src\CMakeFiles\reverseList.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target reverseList
+
+
+#############################################
+# Link the executable LeetCode\src\reverseList.exe
+
+build LeetCode/src/reverseList.exe: CXX_EXECUTABLE_LINKER__reverseList_Debug LeetCode/src/CMakeFiles/reverseList.dir/206_reverseList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = LeetCode\src\CMakeFiles\reverseList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LeetCode\src\reverseList.exe
+  TARGET_IMPLIB = LeetCode\src\libreverseList.dll.a
+  TARGET_PDB = reverseList.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target swapPairs
+
+
+#############################################
+# Order-only phony target for swapPairs
+
+build cmake_object_order_depends_target_swapPairs: phony || .
+
+build LeetCode/src/CMakeFiles/swapPairs.dir/24_swapPairs.cpp.obj: CXX_COMPILER__swapPairs_unscanned_Debug D$:/Code_Practice/LeetCode/src/24_swapPairs.cpp || cmake_object_order_depends_target_swapPairs
+  DEP_FILE = LeetCode\src\CMakeFiles\swapPairs.dir\24_swapPairs.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = LeetCode\src\CMakeFiles\swapPairs.dir
+  OBJECT_FILE_DIR = LeetCode\src\CMakeFiles\swapPairs.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target swapPairs
+
+
+#############################################
+# Link the executable LeetCode\src\swapPairs.exe
+
+build LeetCode/src/swapPairs.exe: CXX_EXECUTABLE_LINKER__swapPairs_Debug LeetCode/src/CMakeFiles/swapPairs.dir/24_swapPairs.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = LeetCode\src\CMakeFiles\swapPairs.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LeetCode\src\swapPairs.exe
+  TARGET_IMPLIB = LeetCode\src\libswapPairs.dll.a
+  TARGET_PDB = swapPairs.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target removeNthFromEnd
+
+
+#############################################
+# Order-only phony target for removeNthFromEnd
+
+build cmake_object_order_depends_target_removeNthFromEnd: phony || .
+
+build LeetCode/src/CMakeFiles/removeNthFromEnd.dir/19_removeNthFromEnd.cpp.obj: CXX_COMPILER__removeNthFromEnd_unscanned_Debug D$:/Code_Practice/LeetCode/src/19_removeNthFromEnd.cpp || cmake_object_order_depends_target_removeNthFromEnd
+  DEP_FILE = LeetCode\src\CMakeFiles\removeNthFromEnd.dir\19_removeNthFromEnd.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = LeetCode\src\CMakeFiles\removeNthFromEnd.dir
+  OBJECT_FILE_DIR = LeetCode\src\CMakeFiles\removeNthFromEnd.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target removeNthFromEnd
+
+
+#############################################
+# Link the executable LeetCode\src\removeNthFromEnd.exe
+
+build LeetCode/src/removeNthFromEnd.exe: CXX_EXECUTABLE_LINKER__removeNthFromEnd_Debug LeetCode/src/CMakeFiles/removeNthFromEnd.dir/19_removeNthFromEnd.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = LeetCode\src\CMakeFiles\removeNthFromEnd.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LeetCode\src\removeNthFromEnd.exe
+  TARGET_IMPLIB = LeetCode\src\libremoveNthFromEnd.dll.a
+  TARGET_PDB = removeNthFromEnd.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target getIntersectionNode
+
+
+#############################################
+# Order-only phony target for getIntersectionNode
+
+build cmake_object_order_depends_target_getIntersectionNode: phony || .
+
+build LeetCode/src/CMakeFiles/getIntersectionNode.dir/2_07_getIntersectionNode.cpp.obj: CXX_COMPILER__getIntersectionNode_unscanned_Debug D$:/Code_Practice/LeetCode/src/2_07_getIntersectionNode.cpp || cmake_object_order_depends_target_getIntersectionNode
+  DEP_FILE = LeetCode\src\CMakeFiles\getIntersectionNode.dir\2_07_getIntersectionNode.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = LeetCode\src\CMakeFiles\getIntersectionNode.dir
+  OBJECT_FILE_DIR = LeetCode\src\CMakeFiles\getIntersectionNode.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target getIntersectionNode
+
+
+#############################################
+# Link the executable LeetCode\src\getIntersectionNode.exe
+
+build LeetCode/src/getIntersectionNode.exe: CXX_EXECUTABLE_LINKER__getIntersectionNode_Debug LeetCode/src/CMakeFiles/getIntersectionNode.dir/2_07_getIntersectionNode.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = LeetCode\src\CMakeFiles\getIntersectionNode.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LeetCode\src\getIntersectionNode.exe
+  TARGET_IMPLIB = LeetCode\src\libgetIntersectionNode.dll.a
+  TARGET_PDB = getIntersectionNode.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target detectCycle
+
+
+#############################################
+# Order-only phony target for detectCycle
+
+build cmake_object_order_depends_target_detectCycle: phony || .
+
+build LeetCode/src/CMakeFiles/detectCycle.dir/142_detectCycle.cpp.obj: CXX_COMPILER__detectCycle_unscanned_Debug D$:/Code_Practice/LeetCode/src/142_detectCycle.cpp || cmake_object_order_depends_target_detectCycle
+  DEP_FILE = LeetCode\src\CMakeFiles\detectCycle.dir\142_detectCycle.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = LeetCode\src\CMakeFiles\detectCycle.dir
+  OBJECT_FILE_DIR = LeetCode\src\CMakeFiles\detectCycle.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target detectCycle
+
+
+#############################################
+# Link the executable LeetCode\src\detectCycle.exe
+
+build LeetCode/src/detectCycle.exe: CXX_EXECUTABLE_LINKER__detectCycle_Debug LeetCode/src/CMakeFiles/detectCycle.dir/142_detectCycle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = LeetCode\src\CMakeFiles\detectCycle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LeetCode\src\detectCycle.exe
+  TARGET_IMPLIB = LeetCode\src\libdetectCycle.dll.a
+  TARGET_PDB = detectCycle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target intersect
+
+
+#############################################
+# Order-only phony target for intersect
+
+build cmake_object_order_depends_target_intersect: phony || .
+
+build LeetCode/src/CMakeFiles/intersect.dir/350_intersect.cpp.obj: CXX_COMPILER__intersect_unscanned_Debug D$:/Code_Practice/LeetCode/src/350_intersect.cpp || cmake_object_order_depends_target_intersect
+  DEP_FILE = LeetCode\src\CMakeFiles\intersect.dir\350_intersect.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = LeetCode\src\CMakeFiles\intersect.dir
+  OBJECT_FILE_DIR = LeetCode\src\CMakeFiles\intersect.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target intersect
+
+
+#############################################
+# Link the executable LeetCode\src\intersect.exe
+
+build LeetCode/src/intersect.exe: CXX_EXECUTABLE_LINKER__intersect_Debug LeetCode/src/CMakeFiles/intersect.dir/350_intersect.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = LeetCode\src\CMakeFiles\intersect.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LeetCode\src\intersect.exe
+  TARGET_IMPLIB = LeetCode\src\libintersect.dll.a
+  TARGET_PDB = intersect.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target isHappy
+
+
+#############################################
+# Order-only phony target for isHappy
+
+build cmake_object_order_depends_target_isHappy: phony || .
+
+build LeetCode/src/CMakeFiles/isHappy.dir/202_isHappy.cpp.obj: CXX_COMPILER__isHappy_unscanned_Debug D$:/Code_Practice/LeetCode/src/202_isHappy.cpp || cmake_object_order_depends_target_isHappy
+  DEP_FILE = LeetCode\src\CMakeFiles\isHappy.dir\202_isHappy.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = LeetCode\src\CMakeFiles\isHappy.dir
+  OBJECT_FILE_DIR = LeetCode\src\CMakeFiles\isHappy.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target isHappy
+
+
+#############################################
+# Link the executable LeetCode\src\isHappy.exe
+
+build LeetCode/src/isHappy.exe: CXX_EXECUTABLE_LINKER__isHappy_Debug LeetCode/src/CMakeFiles/isHappy.dir/202_isHappy.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = LeetCode\src\CMakeFiles\isHappy.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LeetCode\src\isHappy.exe
+  TARGET_IMPLIB = LeetCode\src\libisHappy.dll.a
+  TARGET_PDB = isHappy.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target twoSum
+
+
+#############################################
+# Order-only phony target for twoSum
+
+build cmake_object_order_depends_target_twoSum: phony || .
+
+build LeetCode/src/CMakeFiles/twoSum.dir/1_twoSum.cpp.obj: CXX_COMPILER__twoSum_unscanned_Debug D$:/Code_Practice/LeetCode/src/1_twoSum.cpp || cmake_object_order_depends_target_twoSum
+  DEP_FILE = LeetCode\src\CMakeFiles\twoSum.dir\1_twoSum.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = LeetCode\src\CMakeFiles\twoSum.dir
+  OBJECT_FILE_DIR = LeetCode\src\CMakeFiles\twoSum.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target twoSum
+
+
+#############################################
+# Link the executable LeetCode\src\twoSum.exe
+
+build LeetCode/src/twoSum.exe: CXX_EXECUTABLE_LINKER__twoSum_Debug LeetCode/src/CMakeFiles/twoSum.dir/1_twoSum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = LeetCode\src\CMakeFiles\twoSum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LeetCode\src\twoSum.exe
+  TARGET_IMPLIB = LeetCode\src\libtwoSum.dll.a
+  TARGET_PDB = twoSum.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -630,17 +927,37 @@ build delete: phony LeetCode/src/delete.exe
 
 build delete.exe: phony LeetCode/src/delete.exe
 
+build detectCycle: phony LeetCode/src/detectCycle.exe
+
+build detectCycle.exe: phony LeetCode/src/detectCycle.exe
+
 build generateMatrix: phony LeetCode/src/generateMatrix.exe
 
 build generateMatrix.exe: phony LeetCode/src/generateMatrix.exe
+
+build getIntersectionNode: phony LeetCode/src/getIntersectionNode.exe
+
+build getIntersectionNode.exe: phony LeetCode/src/getIntersectionNode.exe
 
 build inorderTraversal: phony LeetCode/src/inorderTraversal.exe
 
 build inorderTraversal.exe: phony LeetCode/src/inorderTraversal.exe
 
+build intersect: phony LeetCode/src/intersect.exe
+
+build intersect.exe: phony LeetCode/src/intersect.exe
+
+build isHappy: phony LeetCode/src/isHappy.exe
+
+build isHappy.exe: phony LeetCode/src/isHappy.exe
+
 build isPerfectSquare: phony LeetCode/src/isPerfectSquare.exe
 
 build isPerfectSquare.exe: phony LeetCode/src/isPerfectSquare.exe
+
+build lanqiao_game: phony Others/lanqiao_game.exe
+
+build lanqiao_game.exe: phony Others/lanqiao_game.exe
 
 build minSubArrayLen: phony LeetCode/src/minSubArrayLen.exe
 
@@ -654,6 +971,14 @@ build removeElement: phony LeetCode/src/removeElement.exe
 
 build removeElement.exe: phony LeetCode/src/removeElement.exe
 
+build removeNthFromEnd: phony LeetCode/src/removeNthFromEnd.exe
+
+build removeNthFromEnd.exe: phony LeetCode/src/removeNthFromEnd.exe
+
+build reverseList: phony LeetCode/src/reverseList.exe
+
+build reverseList.exe: phony LeetCode/src/reverseList.exe
+
 build searchRange: phony LeetCode/src/searchRange.exe
 
 build searchRange.exe: phony LeetCode/src/searchRange.exe
@@ -665,6 +990,14 @@ build sortedSquares.exe: phony LeetCode/src/sortedSquares.exe
 build sqrt: phony LeetCode/src/sqrt.exe
 
 build sqrt.exe: phony LeetCode/src/sqrt.exe
+
+build swapPairs: phony LeetCode/src/swapPairs.exe
+
+build swapPairs.exe: phony LeetCode/src/swapPairs.exe
+
+build twoSum: phony LeetCode/src/twoSum.exe
+
+build twoSum.exe: phony LeetCode/src/twoSum.exe
 
 # =============================================================================
 # Folder targets.
@@ -688,14 +1021,14 @@ build LeetCode/all: phony LeetCode/LeetCode.exe LeetCode/src/all
 #############################################
 # Folder: D:/Code_Practice/cmake-build-debug/LeetCode/src
 
-build LeetCode/src/all: phony LeetCode/src/delete.exe LeetCode/src/inorderTraversal.exe LeetCode/src/searchRange.exe LeetCode/src/sqrt.exe LeetCode/src/isPerfectSquare.exe LeetCode/src/removeElement.exe LeetCode/src/moveZeroes.exe LeetCode/src/backspaceCompare.exe LeetCode/src/sortedSquares.exe LeetCode/src/minSubArrayLen.exe LeetCode/src/generateMatrix.exe
+build LeetCode/src/all: phony LeetCode/src/delete.exe LeetCode/src/inorderTraversal.exe LeetCode/src/searchRange.exe LeetCode/src/sqrt.exe LeetCode/src/isPerfectSquare.exe LeetCode/src/removeElement.exe LeetCode/src/moveZeroes.exe LeetCode/src/backspaceCompare.exe LeetCode/src/sortedSquares.exe LeetCode/src/minSubArrayLen.exe LeetCode/src/generateMatrix.exe LeetCode/src/reverseList.exe LeetCode/src/swapPairs.exe LeetCode/src/removeNthFromEnd.exe LeetCode/src/getIntersectionNode.exe LeetCode/src/detectCycle.exe LeetCode/src/intersect.exe LeetCode/src/isHappy.exe LeetCode/src/twoSum.exe
 
 # =============================================================================
 
 #############################################
 # Folder: D:/Code_Practice/cmake-build-debug/Others
 
-build Others/all: phony Others/buy.exe
+build Others/all: phony Others/buy.exe Others/lanqiao_game.exe
 
 # =============================================================================
 # Built-in targets
